@@ -11,10 +11,12 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
+      profile:
+        status:
+          icon: ""
+          text: ""
       button:
         text: Download CV
         url: uploads/resume.pdf
